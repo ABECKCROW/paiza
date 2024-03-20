@@ -65,13 +65,14 @@
  * 　・1 ≦ a_{i, j} ≦ 1,000
  */
 
+//入力値を切り替える
 const lines = ["3 5", "3 7 4 5 1", "6 9 1 8 8", "11 2 5 2 2"];
 //出力: Yes
 //     AABBB;
 //     AAABB;
 //     ABBBB;
 
-const lines = ["4 4", "18 40 22 16", "2 38 10 10", "38 18 8 36", "6 18 24 34"]; //出力: No
+// const lines = ["4 4", "18 40 22 16", "2 38 10 10", "38 18 8 36", "6 18 24 34"]; //出力: No
 
 
 const ChocoSplitting = () => {
@@ -106,3 +107,6 @@ const ChocoSplitting = () => {
         console.log("No");
     }
 };
+
+//出力結果が同じなら正解。
+ChocoSplitting();
